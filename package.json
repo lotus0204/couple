@@ -2,6 +2,8 @@
   "name": "couple",
   "version": "0.0.1",
   "description": "",
+  "target": "esnext",
+  "module": "commonjs",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
@@ -23,8 +25,8 @@
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0",
-    "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/core": "^9.4.2",
+    "@nestjs/platform-express": "^9.4.2",
     "@nestjs/typeorm": "^9.0.1",
     "mysql": "^2.18.1",
     "reflect-metadata": "^0.1.13",
@@ -33,9 +35,9 @@
     "typeorm": "^0.3.16"
   },
   "devDependencies": {
-    "@nestjs/cli": "^8.0.0",
+    "@nestjs/cli": "^9.5.0",
     "@nestjs/schematics": "^8.0.0",
-    "@nestjs/testing": "^8.0.0",
+    "@nestjs/testing": "^9.4.2",
     "@types/express": "^4.17.13",
     "@types/jest": "27.4.0",
     "@types/node": "^16.0.0",
